@@ -5,6 +5,8 @@
 
 # KRT 17/06/2012 rewrite event detection to deal with mouse use
 
+#practicing with  github1
+
 import random, time, pygame, sys
 from pygame.locals import *
 
