@@ -2,7 +2,7 @@
 # By Al Sweigart al@inventwithpython.com
 # http://inventwithpython.com/pygame
 # Released under a "Simplified BSD" license
-
+# Edited by Rylan Martin
 # KRT 17/06/2012 rewrite event detection to deal with mouse use
 
 #practicing with  github1
