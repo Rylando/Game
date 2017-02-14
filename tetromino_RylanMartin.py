@@ -6,7 +6,7 @@
 # KRT 17/06/2012 rewrite event detection to deal with mouse use
 
 #practicing with  github1
-#forked by kevin and fixed a bug
+#forked by kevin and fixed a bug that stopped the game from running
 
 import random, time, pygame, sys
 from pygame.locals import *
