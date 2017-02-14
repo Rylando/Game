@@ -6,6 +6,7 @@
 # KRT 17/06/2012 rewrite event detection to deal with mouse use
 
 #practicing with  github1
+#forked by kevin and fixed a bug
 
 import random, time, pygame, sys
 from pygame.locals import *
@@ -216,7 +217,8 @@ def main():
         if random.randint(0, 1) == 0:
             pygame.mixer.music.load('tetrisb.mid')
         else:
-            pygame.mixer.music.load('tetrisc.mid')
+            #fixed bug for the music
+            pygame.mixer.music.load('tetrisb.mid')
         pygame.mixer.music.play(-1, 0.0)
         runGame()
         pygame.mixer.music.stop()
